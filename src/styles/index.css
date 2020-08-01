@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: roboto, arial, sans-serif;
+}
+
+div#root {
+  width: 100vw;
+  height: 100vh;
+  /* overflow: hidden; */
+  display: flex;
+  flex-direction: column;
+  background-image: url("../img/sasin.png");
+  background-size: cover;
+  background-position: center;
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+body {
+  background-image: url("../img/sasin.jpg");
+  backdrop-filter: blur(16px);
+}
